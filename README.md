@@ -19,3 +19,5 @@
 ## `npm run angular`
 
 ### Development [http://localhost:4200]
+
+## `npm run build`
