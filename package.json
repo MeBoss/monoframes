@@ -1,0 +1,14 @@
+{
+  "name": "monoframes",
+  "version": "1.0.0",
+  "description": "It is Containing angular,react,vue starter cleaned up",
+  "main": "index.js",
+  "scripts": {
+    "react": "npm start --prefix hello-world",
+    "vue": "npm run serve --prefix hellos",
+    "angular": "npm start --prefix helloworld",
+    "postinstall": "cd hellos && npm install && cd.. && cd helloworld && npm install && cd.. &&  cd hello-world && npm install"
+  },
+  "author": "Boss",
+  "license": "ISC"
+}
