@@ -7,7 +7,8 @@
     "react": "npm start --prefix hello-world",
     "vue": "npm run serve --prefix hellos",
     "angular": "npm start --prefix helloworld",
-    "postinstall": "cd hellos && npm install && cd.. && cd helloworld && npm install && cd.. &&  cd hello-world && npm install"
+    "postinstall": "cd hellos && npm install && cd .. && cd helloworld && npm install && cd .. &&  cd hello-world && npm install",
+    "build": "cd hellos && npm run build && cd .. && cd helloworld && npm run build && cd .. && cd hello-world && npm run build"
   },
   "author": "Boss",
   "license": "ISC"
