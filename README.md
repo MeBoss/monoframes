@@ -20,4 +20,5 @@
 
 ### Development [http://localhost:4200]
 
-## `npm run build`
+## `npm run build` 
+### In the root directory of the project.
